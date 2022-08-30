@@ -16,7 +16,7 @@ GitHub at: https://github.com/Quanta-of-solitude/smsit_api/blob/main/README.md
 
 ### Installation
 ---
-
+Available on [pypi](https://pypi.org/project/smsit-api/)
 
 ```
 pip install smsit_api

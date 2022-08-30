@@ -50,7 +50,7 @@ from smsit_api import smsitpy
 h = smsitpy(token="MyToken", version="cloud") #version options : cloud or decentral
 ```
 
-The official API Reference can be found [here](https://decontrolpanel.smsit.ai/users/api)
+The official API Reference can be found [here](https://controlpanel.smsit.ai/users/api)
 
 <br/>
 

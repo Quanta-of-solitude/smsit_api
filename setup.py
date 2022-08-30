@@ -8,12 +8,12 @@ with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
 VERSION = '0.0.1'
-DESCRIPTION = 'SMS-iT Python wrapper 0.0.1'
+DESCRIPTION = 'SMS-iT API Python wrapper 0.0.1'
 
 
 # Setting up
 setup(
-    name="smsit",
+    name="smsit_api",
     version=VERSION,
     author="Sanjeev",
     author_email="<sanjeev@sms-it.co>",

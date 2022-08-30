@@ -42,7 +42,6 @@ requests
 
 ```
 
-There is no documentation as of now for this package, you can use help() to get information
 
 ```python
 from smsit_api import smsitpy
@@ -57,7 +56,7 @@ The official API Reference can be found [here](https://controlpanel.smsit.ai/use
 ### Example
 ---
 
-To get generate OTP:
+To generate OTP:
 ```python
 from smsit_api import smsitpy
 

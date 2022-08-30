@@ -15,7 +15,7 @@
 
 ### Installation
 ---
-
+Available at [pypi](https://pypi.org/project/smsit-api/)
 
 ```
 pip install smsit_api

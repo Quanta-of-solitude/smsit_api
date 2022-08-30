@@ -1,6 +1,7 @@
 # SMS-iT API Wrapper
-> SMS-iT API Python wrapper 0.0.1
+> SMS-iT API Python wrapper 0.0.2
 
+GitHub at: https://github.com/Quanta-of-solitude/smsit_api/blob/main/README.md
 <br/>
 
 ## Table of Content 
@@ -15,7 +16,7 @@
 
 ### Installation
 ---
-Available at [pypi](https://pypi.org/project/smsit-api/)
+
 
 ```
 pip install smsit_api

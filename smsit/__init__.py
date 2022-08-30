@@ -1,0 +1,1 @@
+from smsit.main import smsitpy

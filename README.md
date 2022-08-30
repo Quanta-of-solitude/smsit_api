@@ -38,7 +38,7 @@ requests
 ---
 
 ```
- 'addAppointment', 'addContact', 'checkCredits', 'generateOTP', 'getContact', 'getContactByName', 'getGroupsList', 'name', 'sendMessageToContacts', 'sendMessageToGroup', 'token', 'validateOTP'
+ 'addAppointment', 'addContact', 'checkCredits', 'generateOTP', 'getContact', 'getContactByName', 'getGroupsList', 'sendMessageToContacts', 'sendMessageToGroup', 'validateOTP'
 
 ```
 
@@ -63,7 +63,7 @@ from smsit_api import smsitpy
 
 h = smsitpy(token="MyToken", version="cloud") #version options : cloud or decentral
 
-print(h.generate(OTP)
+print(h.generateOTP())
 
 OUTPUT:
 {'status': 'Success', 'msg': 'Otp Successfully Generated', 'otp': '94b87b'}

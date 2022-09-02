@@ -39,10 +39,10 @@ class smsitpy:
     def sendMessageToContacts(self,number,contactnumber,message,bulk=False):
         if bulk == False:
             if self.version == 'cloud':
-                url = f"https://controlpanel.smsit.ai/apis/smscontact/?apikey=APIKEY&from={number}&to={contactnumber}&message={message}"
+                url = f"https://controlpanel.smsit.ai/apis/smscontact/?apikey={self.token}&from={number}&to={contactnumber}&message={message}"
 
             if self.version == "decentral":
-                url = f"https://decontrolpanel.smsit.ai/apis/smscontact/?apikey=APIKEY&from={number}&to={contactnumber}&message={message}"
+                url = f"https://decontrolpanel.smsit.ai/apis/smscontact/?apikey={self.token}&from={number}&to={contactnumber}&message={message}"
             r = requests.get(url)
             data = r.json()
             return data

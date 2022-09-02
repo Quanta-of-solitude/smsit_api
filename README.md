@@ -1,5 +1,5 @@
 # SMS-iT API Wrapper
-> SMS-iT API Python wrapper 0.0.2
+> SMS-iT API Python wrapper 0.0.1
 
 GitHub at: https://github.com/Quanta-of-solitude/smsit_api/blob/main/README.md
 <br/>
@@ -16,10 +16,10 @@ GitHub at: https://github.com/Quanta-of-solitude/smsit_api/blob/main/README.md
 
 ### Installation
 ---
-Available on [pypi](https://pypi.org/project/smsit-api/)
+Available on [pypi](https://pypi.org/project/smsit_wrapper/)
 
 ```
-pip install smsit_api
+pip install smsit_wrapper
 ```
 
 <br/>
@@ -44,9 +44,9 @@ requests
 
 
 ```python
-from smsit_api import smsitpy
+from smsit_wrapper import smsit
 
-h = smsitpy(token="MyToken", version="cloud") #version options : cloud or decentral
+h = smsit(token="MyToken", version="cloud") #version options : cloud or decentral
 ```
 
 The official API Reference can be found [here](https://controlpanel.smsit.ai/users/api)
@@ -58,9 +58,9 @@ The official API Reference can be found [here](https://controlpanel.smsit.ai/use
 
 To generate OTP:
 ```python
-from smsit_api import smsitpy
+from smsit_wrapper import smsit
 
-h = smsitpy(token="MyToken", version="cloud") #version options : cloud or decentral
+h = smsit(token="MyToken", version="cloud") #version options : cloud or decentral
 
 print(h.generateOTP())
 
